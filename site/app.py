@@ -8,9 +8,13 @@ app = Flask(__name__)
 def index(): 
     return render_template('index.html') 
 
-@app.route('/pgp.txt')     
+@app.route('/pgp')     
 def pgp(): 
     return render_template('pgp.html') 
+
+@app.route('/pgp.txt')     
+def pgp_txt(): 
+    return render_template('pgp.txt') 
 
 if __name__ == '__main__': 
     #app.run(debug=True, host='0.0.0.0', port=80)

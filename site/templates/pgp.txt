@@ -1,8 +1,4 @@
-{% include "header.html" %}
-
-    <div class="mainbox">
-        <hr/>
-<pre>-----BEGIN PGP PUBLIC KEY BLOCK-----
+-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: BCPG v1.63
 
 mQSuBGdGMOYRDADpa8ZI9kxzHPtyehJoE1XHTq1e9wLZP2RZVOuVMC0WucqIz7aX
@@ -42,8 +38,4 @@ YGLXxttLE/A7jP0Xq4vKiF4EGBEKAAYFAmdGMOYACgkQfBLeu0dmKNacmAEAyK1f
 3nIR+dxA07hS+dQOxt+rmbqHUx/B0euK3tTTLH0A/imM8ynBHwEeHOVlz2XjOyGK
 bxoq6uPli6zZdLQHTPd8
 =L3L9
------END PGP PUBLIC KEY BLOCK-----</pre>
-        <hr/>
-    </div>
-
-{% include "footer.html" %}
+-----END PGP PUBLIC KEY BLOCK-----
