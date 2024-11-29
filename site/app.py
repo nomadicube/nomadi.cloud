@@ -12,9 +12,9 @@ def index():
 def pgp(): 
     return render_template('pgp.html') 
 
-@app.route('/pgp.txt')     
-def pgp_txt(): 
-    return render_template('pgp.txt') 
+@app.route('/nomad.asc')
+def pgp_asc():
+    return send_from_directory('static', 'nomad.asc', as_attachment=True)
 
 if __name__ == '__main__': 
     #app.run(debug=True, host='0.0.0.0', port=80)
